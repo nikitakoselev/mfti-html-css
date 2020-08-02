@@ -1,0 +1,1 @@
+Notes, exercises, solutions for HTML & CSS basics course from MFTI/Yandex (https://www.coursera.org/learn/snovy-html-i-css/)

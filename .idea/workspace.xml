@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54f41704-d45d-4a6b-ac16-a43e74bacbf0" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +14,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="d7be4ec4-7376-4b93-aa55-2492ebbdf509" />
+  </component>
   <component name="ProjectId" id="1fXmJYiIhGBiYMv7VoLc5rSVq15" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,9 +33,30 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="54f41704-d45d-4a6b-ac16-a43e74bacbf0" name="Default Changelist" comment="" />
@@ -37,8 +64,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596372743638</updated>
-      <workItem from="1596372745035" duration="603000" />
+      <workItem from="1596372745035" duration="1070000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1596373375649</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596373375649</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -53,10 +88,14 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="479" y="131" width="1024" height="852" key="#Project_Structure/72.27.1848.1053@72.27.1848.1053" timestamp="1596372990922" />
-    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1596373346861">
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1596373814606">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1596373346861" />
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1596373814606" />
+    <state x="591" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1596373381404">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="591" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1596373381404" />
     <state x="660" y="252" key="run.anything.popup" timestamp="1596373246785">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
