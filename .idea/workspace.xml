@@ -24,9 +24,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54f41704-d45d-4a6b-ac16-a43e74bacbf0" name="Default Changelist" comment="major styling changes">
+    <list default="true" id="54f41704-d45d-4a6b-ac16-a43e74bacbf0" name="Default Changelist" comment="minor styling changes">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week-02/mark-up-language.html" beforeDir="false" afterPath="$PROJECT_DIR$/week-02/mark-up-language.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-02/mark-up-language.html" beforeDir="false" afterPath="$PROJECT_DIR$/week-02/mark-up-language/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,16 +73,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\github\mfti-html-css\week-02\mark-up-language" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="mark-up-language.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mfti-html-css/week-02/mark-up-language.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mfti-html-css/week-02/mark-up-language/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.mark-up-language.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -109,6 +111,7 @@
       <workItem from="1596810932906" duration="2717000" />
       <workItem from="1596851963774" duration="7621000" />
       <workItem from="1596900492792" duration="1907000" />
+      <workItem from="1596914456099" duration="672000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1596373375649</created>
@@ -152,7 +155,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="some minor changes" />
     <MESSAGE value="major styling changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="major styling changes" />
+    <MESSAGE value="minor styling changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor styling changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="989" y="481" key="#Notifications" timestamp="1596405591889">
@@ -171,10 +175,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="839" y="338" width="1092" height="816" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1596405906924" />
-    <state x="825" y="183" key="CommitChangelistDialog2" timestamp="1596887670588">
+    <state x="825" y="183" key="CommitChangelistDialog2" timestamp="1596914901886">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="825" y="183" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1596887670588" />
+    <state x="825" y="183" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1596914901886" />
     <state x="909" y="354" key="FileChooserDialogImpl" timestamp="1596404256123">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -259,9 +263,10 @@
     </state>
     <state x="911" y="482" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1596404444947" />
     <state x="3471" y="482" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1596402643371" />
-    <state x="500" y="312" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596892879630">
-      <screen x="72" y="27" width="1294" height="741" />
+    <state x="847" y="538" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596913881322">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="847" y="538" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1596913881322" />
     <state x="500" y="312" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1294.741@72.27.1294.741" timestamp="1596892879630" />
     <state x="925" y="332" width="710" height="736" key="find.popup" timestamp="1596888193369">
       <screen x="0" y="0" width="2560" height="1400" />
