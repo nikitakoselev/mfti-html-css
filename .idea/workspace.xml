@@ -24,10 +24,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54f41704-d45d-4a6b-ac16-a43e74bacbf0" name="Default Changelist" comment="minor styling changes">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="54f41704-d45d-4a6b-ac16-a43e74bacbf0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week-02/mark-up-language.html" beforeDir="false" afterPath="$PROJECT_DIR$/week-02/mark-up-language/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-02/mark-up-language/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/week-02/mark-up-language/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,7 @@
       <workItem from="1596810932906" duration="2717000" />
       <workItem from="1596851963774" duration="7621000" />
       <workItem from="1596900492792" duration="1907000" />
-      <workItem from="1596914456099" duration="672000" />
+      <workItem from="1596914456099" duration="1590000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1596373375649</created>
@@ -127,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596736144895</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="minor styling changes">
+      <created>1596915224901</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596915224901</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,10 +181,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="839" y="338" width="1092" height="816" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1596405906924" />
-    <state x="825" y="183" key="CommitChangelistDialog2" timestamp="1596914901886">
+    <state x="825" y="183" key="CommitChangelistDialog2" timestamp="1596915223388">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="825" y="183" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1596914901886" />
+    <state x="825" y="183" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1596915223388" />
     <state x="909" y="354" key="FileChooserDialogImpl" timestamp="1596404256123">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -253,10 +259,10 @@
     <state x="572" y="214" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1596406132646" />
     <state x="3132" y="214" width="1141" height="883" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1596429469711" />
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1596373814606" />
-    <state x="719" y="330" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1596887633921">
+    <state x="719" y="330" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1596915226584">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="719" y="330" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1596887633921" />
+    <state x="719" y="330" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1596915226584" />
     <state x="591" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1596373381404" />
     <state x="911" y="482" key="com.intellij.ide.util.TipDialog" timestamp="1596404444947">
       <screen x="0" y="0" width="2560" height="1400" />
