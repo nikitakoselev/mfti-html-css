@@ -10,6 +10,81 @@
     perspective: 800px;
 }
 
+
+@keyframes full-day-cycle {
+    0% {
+        background: skyblue;
+        box-shadow: 0 -400px 300px -300px steelblue inset;
+    }
+
+    30% {
+        background: darkslateblue;
+        box-shadow: 0 -400px 300px -300px orangered inset;
+    }
+
+    60% {
+        background: darkslateblue;
+        box-shadow: 0 -400px 300px -300px transparent inset;
+    }
+}
+
+@keyframes ship-movement {
+    to {
+        transform: translate(-500px, 0);
+    }
+}
+
+@keyframes cloud-1  {
+    to {
+        transform: translateX(10px) ;
+    }
+}
+
+@keyframes cloud-2  {
+    to {
+        transform: translateX(50px);
+    }
+}
+
+@keyframes cloud-3  {
+    to {
+        transform: translateX(100px);
+    }
+}
+
+@keyframes cloud-4  {
+    to {
+        transform: translateX(170px) scale(-1, 1);
+    }
+}
+
+@keyframes sun {
+    to {
+        transform: rotate(1turn) scale(0.9);
+    }
+}
+
+@keyframes smoke-1 {
+    to {
+        transform: translateY(-100px) scale(1.5);
+        opacity: 0;
+    }
+}
+
+@keyframes smoke-2 {
+    to {
+        transform: translateY(-100px) scale(2);
+        opacity: 0;
+    }
+}
+
+@keyframes smoke-3 {
+    to {
+        transform: translateY(-100px) scale(2.5);
+        opacity: 0;
+    }
+}
+
 .box_front {
     position: relative;
     
@@ -20,22 +95,10 @@
     
     background: skyblue;
     box-shadow: 0 -400px 300px -300px steelblue inset;
+
+    animation: full-day-cycle 60s infinite linear;
 }
 
-/*TODO
-Цвета неба задаются следующими свойствами:
-    День:
-        background: skyblue;
-        box-shadow: 0 -400px 300px -300px steelblue inset;
-    Вечер:
-        background: darkslateblue;
-        box-shadow: 0 -400px 300px -300px orangered inset;
-    Ночь:
-        background: darkslateblue;
-        box-shadow: 0 -400px 300px -300px transparent inset;
-        
-Нужно реализовать плавный переход между ними и зациклить его.
-*/
 
 .ship::after {
     position: absolute;
@@ -72,6 +135,18 @@
     
     width: 100px;
     height: 36px;
+
+    animation: ship-movement 10s infinite linear;
+}
+.ship {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+
+    width: 100px;
+    height: 36px;
+
+    animation: ship-movement 60s infinite linear;
 }
 
 .ship_smokestack {
@@ -111,22 +186,25 @@
 .smoke-1 {
     top: -25px;
     right: 44px;
+    animation: smoke-1 10s linear infinite;
 }
 
 .smoke-2 {
     top: -25px;
     right: 42px;
+    animation: smoke-2 10s linear infinite;
 }
 
 .smoke-3 {
     top: -25px;
     right: 49px;
+    animation: smoke-3 10s linear infinite;
 }
 
 .sun {
     position: absolute;
-    top: 30px;
-    right: 50%;
+    top: 50%;
+    left: 0px;
     
     width: 80px;
     height: 80px;
@@ -134,6 +212,8 @@
     border-radius: 50%;
     background: #ffcf11;
     box-shadow: 0 0 100px #ffdf05;
+
+    animation: sun 15s linear infinite;
 }
 
 .sun-wrapper {
@@ -143,6 +223,7 @@
     height: 100%;
     
     transform-origin: bottom center;
+    animation: sun 60s linear infinite;
 }
 
 .sun div {
@@ -194,7 +275,17 @@
     transform: rotate(-72deg);
 }
 
+@keyframes moveClouds {
+    0% {
+        transform: translate(0,0);
+    }
+    25% {
+        transform: translate(0, 100%);
+    }
+}
+
 .cloud {
+    animation-name: moveClouds;
     position: absolute;
     left: -180px;
     
@@ -232,18 +323,26 @@
 
 .cloud-1 {
     top: 10px;
+    transform: scale(0.25);
+    animation: cloud-1 60s linear infinite;
 }
 
 .cloud-2 {
     top: 50px;
+    transform: scale(0.5);
+    animation: cloud-2 50s linear infinite;
 }
 
 .cloud-3 {
     top: 100px;
+    transform: scale(0.75);
+    animation: cloud-3 40s linear infinite;
 }
 
 .cloud-4 {
     top: 170px;
+    transform: scale(-1, 1);
+    animation: cloud-4 30s linear infinite;
 }
 
 .sea {
@@ -270,3 +369,5 @@
     
     background: #1d7fbb;
 }
+
+
